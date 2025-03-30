@@ -192,7 +192,6 @@ class Deque:
 
 Напишите программу, которая умеет оперировать большим количеством деков. Дек — это «очередь с двумя концами».
 
-<spoiler summary="Soluction">
 ```python
 class Stack:
     def __init__(self): self.stack = []
@@ -252,10 +251,6 @@ for i in range(n):
     elif indt[0] == 'popfront':
         print(deques[indt[1]].popfront())
     else:
-        print(deques[indt[1]].pop())
-        
+        print(deques[indt[1]].pop())    
 ```
-
-
-</spoiler>
 
